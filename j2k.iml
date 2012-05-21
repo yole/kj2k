@@ -8,13 +8,11 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="intellij-core" level="project" />
-    <orderEntry type="module" module-name="frontend" />
     <orderEntry type="library" name="KotlinRuntime" level="project" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../kotlin/dist/kotlin-compiler-jarjar.jar!/" />
+          <root url="jar://$MODULE_DIR$/../kotlin/dist/kotlin-compiler-standalone.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
