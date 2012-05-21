@@ -1,0 +1,12 @@
+<idea-plugin version="2" url="http://kotlin.jetbrains.org">
+    <id>org.jetbrains.kj2k</id>
+    <name>Java to Kotlin converter</name>
+    <description>Tool for automatic conversion of Java code to Kotlin</description>
+    <depends>org.jetbrains.kotlin</depends>
+    <actions>
+        <action id="kj2k.ConvertJavaToKotlin" class="org.jetbrains.jet.j2k.actions.JavaToKotlinAction"
+                text="Convert Java File to Kotlin File (new)">
+            <add-to-group group-id="CodeMenu" anchor="last"/>
+        </action>
+    </actions>
+</idea-plugin>
