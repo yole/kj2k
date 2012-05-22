@@ -12,10 +12,12 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../kotlin/dist/kotlin-compiler-standalone.jar!/" />
+          <root url="jar://$MODULE_DIR$/../kotlin/dist/kotlin-compiler-jarjar.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../kotlin/dist/kotlin-compiler-jarjar.jar!/" />
+        </SOURCES>
       </library>
     </orderEntry>
   </component>
