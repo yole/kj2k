@@ -21,7 +21,7 @@ public open class ExpressionVisitorForDirectObjectInheritors(converter: Converte
                     ExpressionVisitor.getClassName(methodExpression))!!)
         }
         else {
-            convertMethodCallExpression(expression!!)
+            super<ExpressionVisitor>.visitMethodCallExpression(expression)
         }
     }
 
